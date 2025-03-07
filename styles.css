@@ -1,1 +1,30 @@
-/*  your css code here. If applicable */
+/*  your css code here. If applicable /* Main container styling */
+.testimonial-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Individual testimonial styling */
+.testimonial {
+    background-color: white;
+    padding: 15px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    width: 50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonial text styling */
+.testimonial-text {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Author styling */
+.author {
+    text-align: right;
+    font-style: italic;
+    font-size: 14px;
+    color: #555;
+}
